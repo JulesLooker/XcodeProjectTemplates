@@ -21,12 +21,14 @@
 		1E0EA2D518B6437C007B5273 /* SCNView_View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNView_View.h; sourceTree = "<group>"; };
 		1E0EA2D618B6437C007B5273 /* teapot.dae */ = {isa = PBXFileReference; lastKnownFileType = text.xml.dae; path = teapot.dae; sourceTree = "<group>"; };
 		1E0EA2D718B6437C007B5273 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		1E0EA2D918B64580007B5273 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		1E0EA2C018B64321007B5273 = {
 			isa = PBXGroup;
 			children = (
+				1E0EA2D918B64580007B5273 /* README.md */,
 				1E0EA2C718B64344007B5273 /* The Interface Works Base.xctemplate */,
 				1E0EA2C918B6436A007B5273 /* The Interface Works Document Window Controller.xctemplate */,
 				1E0EA2CB18B6437C007B5273 /* The Interface Works Main View.xctemplate */,
