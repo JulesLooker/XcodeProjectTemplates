@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.TheInterfaceWorks.dt.unit.documentWindowController</string>
+	<key>InjectionTargets</key>
+	<array>
+		<string>com.apple.dt.unit.cocoaApplication</string>
+	</array>
+	<key>Ancestors</key>
+	<array>
+		<string>com.TheInterfaceWorks.dt.unit.base</string>
+	</array>
+	<key>RequiredOptions</key>
+	<dict>
+		<key>documentBased</key>
+		<string>true</string>
+	</dict>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>windowController</string>
+			<key>Name</key>
+			<string>Implement NSWindowController Subclass For Document Window</string>
+			<key>Description</key>
+			<string>Create a separate NSWindowController subclass for the document window</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>true</string>
+			<key>SortOrder</key>
+			<integer>100</integer>
+			<key>Units</key>
+			<dict>
+				<key>true</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.h:comments</string>
+						<string>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.h:import:importCocoa</string>
+						<string>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.h:class</string>
+						<string>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.h:ivars</string>
+						<string>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.h:methods</string>
+						<string>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.h:classConstants:DocumentWindowController</string>
+						<string>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.h:classConstants:DocumentWindowController:constants:resource</string>
+						<string>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.h:classConstants:DocumentWindowController:constants:resource:members</string>
+						<string>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.m:comments</string>
+						<string>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.m:import:___VARIABLE_classPrefix:identifier___DocumentWindowController.h</string>
+						<string>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.m:implementation</string>
+						<string>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.m:implementation:init</string>
+						<string>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.m:implementation:initWithWindowNibName</string>
+						<string>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.m:implementation:initWithWindowNibPath</string>
+						<string>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.m:implementation:windowDidLoad</string>
+						<string>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.m:classConstantsInit:DocumentWindowController</string>
+						<string>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.m:classConstantsInit:DocumentWindowController:constants:resource</string>
+						<string>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.m:classConstantsInit:DocumentWindowController:constants:resource:members</string>
+					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>&lt;!-- Document XIB Resource--&gt;</key>
+						<string></string>
+						<key>Base.lproj/___VARIABLE_classPrefix:identifier___Document.xib</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Controller</string>
+								<string>Coordinating</string>
+								<string>View</string>
+								<string>Window</string>
+								<string>Document</string>
+							</array>
+						</dict>
+						<key>&lt;!-- Document interface --&gt;</key>
+						<string></string>
+						<key>___VARIABLE_classPrefix:identifier___Document.h</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Controller</string>
+								<string>Coordinating</string>
+								<string>Model</string>
+								<string>Document</string>
+							</array>
+						</dict>
+						<key>&lt;!-- import WindowController header --&gt;</key>
+						<string></string>
+						<key>___VARIABLE_classPrefix:identifier___Document.m</key>
+						<dict>
+							<key>End</key>
+							<string>@end</string>
+							<key>Group</key>
+							<array>
+								<string>Controller</string>
+								<string>Coordinating</string>
+								<string>Model</string>
+								<string>Document</string>
+							</array>
+						</dict>
+						<key>___VARIABLE_classPrefix:identifier___Document.m:import</key>
+						<string>#import &quot;___VARIABLE_classPrefix:identifier___DocumentWindowController.h&quot;</string>
+						<key>&lt;!-- Replace -(NSString)windowNibName with -(void)makeWindowControllers --&gt;</key>
+						<string></string>
+						<key>___VARIABLE_classPrefix:identifier___Document.m:windowNibName</key>
+						<dict>
+							<key>Beginning</key>
+							<string>- (void)makeWindowControllers
+{</string>
+							<key>End</key>
+							<string>}
+</string>
+							<key>Indent</key>
+							<integer>1</integer>
+						</dict>
+						<key>___VARIABLE_classPrefix:identifier___Document.m:windowNibName:comments</key>
+						<string></string>
+						<key>___VARIABLE_classPrefix:identifier___Document.m:windowNibName:code</key>
+						<string>[self addWindowController:[___VARIABLE_classPrefix:identifier___DocumentWindowController new]];</string>
+						<key>&lt;!-- DocumentWindowController interface --&gt;</key>
+						<string></string>
+						<key>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.h</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Controller</string>
+								<string>Coordinating</string>
+								<string>View</string>
+								<string>Window</string>
+								<string>Document</string>
+							</array>
+						</dict>
+						<key>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.h:ivars</key>
+						<string>@interface ___VARIABLE_classPrefix:identifier___DocumentWindowController : NSWindowController
+</string>
+						<key>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.h:classConstants:DocumentWindowController:constants:resource:members</key>
+						<string>NSString __unsafe_unretained * const windowNibName;</string>
+						<key>&lt;!-- DocumentWindowController implementation --&gt;</key>
+						<string></string>
+						<key>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.m</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Controller</string>
+								<string>Coordinating</string>
+								<string>View</string>
+								<string>Window</string>
+								<string>Document</string>
+							</array>
+						</dict>
+						<key>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.m:implementation</key>
+						<dict>
+							<key>Beginning</key>
+							<string>@implementation ___VARIABLE_classPrefix:identifier___DocumentWindowController
+</string>
+							<key>End</key>
+							<string>@end</string>
+						</dict>
+						<key>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.m:implementation:init</key>
+						<string>- (id)init
+{
+    self = [super initWithWindowNibName:k___VARIABLE_classPrefix:identifier___DocumentWindowController.resource.windowNibName owner:self];
+    
+    return self;
+}
+</string>
+						<key>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.m:implementation:initWithWindowNibName</key>
+						<string>- (id)initWithWindowNibName:(NSString *)windowNibName owner:(id)owner
+{
+    NSLog(@&quot;\n\t%s\n\t\t%@&quot; , __PRETTY_FUNCTION__ , @&quot;Ignored - Returning [self init];&quot;);
+    return [self init];
+}
+</string>
+						<key>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.m:implementation:initWithWindowNibPath</key>
+						<string>- (id)initWithWindowNibPath:(NSString *)windowNibPath owner:(id)owner
+{
+    NSLog(@&quot;\n\t%s\n\t\t%@&quot; , __PRETTY_FUNCTION__ , @&quot;Ignored - Returning [self init];&quot;);
+    return [self init];
+}
+</string>
+						<key>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.m:implementation:windowDidLoad</key>
+						<string>- (void)windowDidLoad
+{
+    [super windowDidLoad];
+    
+    // Implement this method to handle any initialization after your window controller&apos;s window has been loaded from its nib file.
+
+}
+</string>
+						<key>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.m:classConstantsInit:DocumentWindowController:constants:resource:members</key>
+						<string>.windowNibName = @&quot;___VARIABLE_classPrefix:identifier___Document&quot; ,</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,122 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		1E0EA2C818B64344007B5273 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		1E0EA2CA18B6436A007B5273 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		1E0EA2CC18B6437C007B5273 /* DocumentNSView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DocumentNSView.xib; sourceTree = "<group>"; };
+		1E0EA2CD18B6437C007B5273 /* DocumentSCNView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DocumentSCNView.xib; sourceTree = "<group>"; };
+		1E0EA2CE18B6437C007B5273 /* duck.dae */ = {isa = PBXFileReference; lastKnownFileType = text.xml.dae; path = duck.dae; sourceTree = "<group>"; };
+		1E0EA2CF18B6437C007B5273 /* NSView_and_SCNView_View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSView_and_SCNView_View.m; sourceTree = "<group>"; };
+		1E0EA2D018B6437C007B5273 /* NSView_View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSView_View.h; sourceTree = "<group>"; };
+		1E0EA2D118B6437C007B5273 /* NSView_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSView_ViewController.h; sourceTree = "<group>"; };
+		1E0EA2D218B6437C007B5273 /* NSView_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSView_ViewController.m; sourceTree = "<group>"; };
+		1E0EA2D318B6437C007B5273 /* SCNScene_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNScene_ViewController.h; sourceTree = "<group>"; };
+		1E0EA2D418B6437C007B5273 /* SCNScene_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNScene_ViewController.m; sourceTree = "<group>"; };
+		1E0EA2D518B6437C007B5273 /* SCNView_View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNView_View.h; sourceTree = "<group>"; };
+		1E0EA2D618B6437C007B5273 /* teapot.dae */ = {isa = PBXFileReference; lastKnownFileType = text.xml.dae; path = teapot.dae; sourceTree = "<group>"; };
+		1E0EA2D718B6437C007B5273 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1E0EA2C018B64321007B5273 = {
+			isa = PBXGroup;
+			children = (
+				1E0EA2C718B64344007B5273 /* The Interface Works Base.xctemplate */,
+				1E0EA2C918B6436A007B5273 /* The Interface Works Document Window Controller.xctemplate */,
+				1E0EA2CB18B6437C007B5273 /* The Interface Works Main View.xctemplate */,
+			);
+			sourceTree = "<group>";
+		};
+		1E0EA2C718B64344007B5273 /* The Interface Works Base.xctemplate */ = {
+			isa = PBXGroup;
+			children = (
+				1E0EA2C818B64344007B5273 /* TemplateInfo.plist */,
+			);
+			path = "The Interface Works Base.xctemplate";
+			sourceTree = "<group>";
+		};
+		1E0EA2C918B6436A007B5273 /* The Interface Works Document Window Controller.xctemplate */ = {
+			isa = PBXGroup;
+			children = (
+				1E0EA2CA18B6436A007B5273 /* TemplateInfo.plist */,
+			);
+			path = "The Interface Works Document Window Controller.xctemplate";
+			sourceTree = "<group>";
+		};
+		1E0EA2CB18B6437C007B5273 /* The Interface Works Main View.xctemplate */ = {
+			isa = PBXGroup;
+			children = (
+				1E0EA2CC18B6437C007B5273 /* DocumentNSView.xib */,
+				1E0EA2CD18B6437C007B5273 /* DocumentSCNView.xib */,
+				1E0EA2CE18B6437C007B5273 /* duck.dae */,
+				1E0EA2CF18B6437C007B5273 /* NSView_and_SCNView_View.m */,
+				1E0EA2D018B6437C007B5273 /* NSView_View.h */,
+				1E0EA2D118B6437C007B5273 /* NSView_ViewController.h */,
+				1E0EA2D218B6437C007B5273 /* NSView_ViewController.m */,
+				1E0EA2D318B6437C007B5273 /* SCNScene_ViewController.h */,
+				1E0EA2D418B6437C007B5273 /* SCNScene_ViewController.m */,
+				1E0EA2D518B6437C007B5273 /* SCNView_View.h */,
+				1E0EA2D618B6437C007B5273 /* teapot.dae */,
+				1E0EA2D718B6437C007B5273 /* TemplateInfo.plist */,
+			);
+			path = "The Interface Works Main View.xctemplate";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		1E0EA2C118B64321007B5273 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 1E0EA2C418B64321007B5273 /* Build configuration list for PBXProject "Xcode Project Templates" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1E0EA2C018B64321007B5273;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		1E0EA2C518B64321007B5273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		1E0EA2C618B64321007B5273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E0EA2C418B64321007B5273 /* Build configuration list for PBXProject "Xcode Project Templates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0EA2C518B64321007B5273 /* Debug */,
+				1E0EA2C618B64321007B5273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E0EA2C118B64321007B5273 /* Project object */;
+}

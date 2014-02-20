@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.TheInterfaceWorks.dt.unit.mainView</string>
+	<key>InjectionTargets</key>
+	<array>
+		<string>com.apple.dt.unit.cocoaApplication</string>
+	</array>
+	<key>XXXAncestors</key>
+	<array>
+		<string>com.TheInterfaceWorks.dt.unit.base</string>
+	</array>
+	<key>Ancestors</key>
+	<array>
+		<string>com.TheInterfaceWorks.dt.unit.documentWindowController</string>
+	</array>
+	<key>RequiredOptions</key>
+	<dict>
+		<key>documentBased</key>
+		<string>true</string>
+	</dict>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>principalViewStyle</string>
+			<key>Name</key>
+			<string>Principal View Superclass</string>
+			<key>Description</key>
+			<string>The class the principal view for the document inherits from</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Values</key>
+			<array>
+				<string>None</string>
+				<string>NSView</string>
+				<string>SCNView</string>
+			</array>
+			<key>Default</key>
+			<string>None</string>
+			<key>SortOrder</key>
+			<string>210</string>
+			<key>Units</key>
+			<dict>
+				<key>SCNView</key>
+				<dict>
+					<key>Targets</key>
+					<array>
+						<dict>
+							<key>Frameworks</key>
+							<array>
+								<string>SceneKit</string>
+							</array>
+						</dict>
+					</array>
+					<key>Nodes</key>
+					<array>
+						<string>Resources/Scenes/DefaultScene.dae</string>
+						<string>___VARIABLE_principalViewPath______VARIABLE_classPrefix:identifier______VARIABLE_principalViewName:identifier___View.h</string>
+						<string>___VARIABLE_principalViewPath______VARIABLE_classPrefix:identifier______VARIABLE_principalViewName:identifier___View.m</string>
+						<string>___VARIABLE_principalViewControllerPath______VARIABLE_classPrefix:identifier______VARIABLE_principalViewName:identifier___ViewController.h</string>
+						<string>___VARIABLE_principalViewControllerPath______VARIABLE_classPrefix:identifier______VARIABLE_principalViewName:identifier___ViewController.m</string>
+					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>___VARIABLE_principalViewPath______VARIABLE_classPrefix:identifier______VARIABLE_principalViewName:identifier___.h</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>View</string>
+								<string>Principal</string>
+							</array>
+						</dict>
+						<key>Resources/Scenes/DefaultScene.dae</key>
+						<dict>
+							<key>Path</key>
+							<string>./teapot.dae</string>
+						</dict>
+						<key>Base.lproj/___VARIABLE_classPrefix:identifier___Document.xib</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Controller</string>
+								<string>Coordinating</string>
+								<string>View</string>
+								<string>Window</string>
+								<string>Document</string>
+							</array>
+							<key>Path</key>
+							<string>./DocumentSCNView.xib</string>
+						</dict>
+						<key>___VARIABLE_principalViewPath______VARIABLE_classPrefix:identifier______VARIABLE_principalViewName:identifier___View.h</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>View</string>
+								<string>Principal</string>
+							</array>
+							<key>Path</key>
+							<string>./SCNView_View.h</string>
+						</dict>
+						<key>___VARIABLE_principalViewPath______VARIABLE_classPrefix:identifier______VARIABLE_principalViewName:identifier___View.m</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>View</string>
+								<string>Principal</string>
+							</array>
+							<key>Path</key>
+							<string>./NSView_and_SCNView_View.m</string>
+						</dict>
+						<key>___VARIABLE_principalViewControllerPath______VARIABLE_classPrefix:identifier______VARIABLE_principalViewName:identifier___ViewController.h</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Controller</string>
+								<string>Coordinating</string>
+								<string>View</string>
+								<string>Principal</string>
+							</array>
+							<key>Path</key>
+							<string>./SCNScene_ViewController.h</string>
+						</dict>
+						<key>___VARIABLE_principalViewControllerPath______VARIABLE_classPrefix:identifier______VARIABLE_principalViewName:identifier___ViewController.m</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Controller</string>
+								<string>Coordinating</string>
+								<string>View</string>
+								<string>Principal</string>
+							</array>
+							<key>Path</key>
+							<string>./SCNScene_ViewController.m</string>
+						</dict>
+					</dict>
+				</dict>
+				<key>NSView</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>___VARIABLE_principalViewPath______VARIABLE_classPrefix:identifier______VARIABLE_principalViewName:identifier___View.h</string>
+						<string>___VARIABLE_principalViewPath______VARIABLE_classPrefix:identifier______VARIABLE_principalViewName:identifier___View.m</string>
+						<string>___VARIABLE_principalViewControllerPath______VARIABLE_classPrefix:identifier______VARIABLE_principalViewName:identifier___ViewController.h</string>
+						<string>___VARIABLE_principalViewControllerPath______VARIABLE_classPrefix:identifier______VARIABLE_principalViewName:identifier___ViewController.m</string>
+					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>Base.lproj/___VARIABLE_classPrefix:identifier___Document.xib</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Controller</string>
+								<string>Coordinating</string>
+								<string>View</string>
+								<string>Window</string>
+								<string>Document</string>
+							</array>
+							<key>Path</key>
+							<string>./DocumentNSView.xib</string>
+						</dict>
+						<key>___VARIABLE_principalViewPath______VARIABLE_classPrefix:identifier______VARIABLE_principalViewName:identifier___View.h</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>View</string>
+								<string>Principal</string>
+							</array>
+							<key>Path</key>
+							<string>./NSView_View.h</string>
+						</dict>
+						<key>___VARIABLE_principalViewPath______VARIABLE_classPrefix:identifier______VARIABLE_principalViewName:identifier___View.m</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>View</string>
+								<string>Principal</string>
+							</array>
+							<key>Path</key>
+							<string>./NSView_and_SCNView_View.m</string>
+						</dict>
+						<key>___VARIABLE_principalViewControllerPath______VARIABLE_classPrefix:identifier______VARIABLE_principalViewName:identifier___ViewController.h</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Controller</string>
+								<string>Coordinating</string>
+								<string>View</string>
+								<string>Principal</string>
+							</array>
+							<key>Path</key>
+							<string>./NSView_ViewController.h</string>
+						</dict>
+						<key>___VARIABLE_principalViewControllerPath______VARIABLE_classPrefix:identifier______VARIABLE_principalViewName:identifier___ViewController.m</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Controller</string>
+								<string>Coordinating</string>
+								<string>View</string>
+								<string>Principal</string>
+							</array>
+							<key>Path</key>
+							<string>./NSView_ViewController.m</string>
+						</dict>
+					</dict>
+				</dict>
+				<key>SCNView as Nodes &amp; Definitions</key>
+				<dict>
+					<key>Targets</key>
+					<array>
+						<dict>
+							<key>Frameworks</key>
+							<array>
+								<string>SceneKit</string>
+							</array>
+						</dict>
+					</array>
+					<key>Nodes</key>
+					<array>
+						<string>Resources/Scenes/DefaultScene.dae</string>
+						<string>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___View.h:comments</string>
+						<string>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___View.h:import:importCocoa</string>
+						<string>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___View.h:import:importSceneKit</string>
+						<string>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___View.h:class</string>
+						<string>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___View.h:ivars</string>
+						<string>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___View.h:methods</string>
+						<string>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___View.m:comments</string>
+						<string>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___View.m:import:___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___View.h</string>
+						<string>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___View.m:implementation</string>
+						<string>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___View.m:implementation:setViewController</string>
+						<string>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___View.m:implementation:setNextResponder</string>
+						<string>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___ViewController.h:comments</string>
+						<string>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___ViewController.h:import:importCocoa</string>
+						<string>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___ViewController.h:import:importSceneKit</string>
+						<string>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___ViewController.h:class</string>
+						<string>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___ViewController.h:ivars</string>
+						<string>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___ViewController.h:methods</string>
+						<string>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___ViewController.m:comments</string>
+						<string>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___ViewController.m:import:___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___ViewController.h</string>
+						<string>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___ViewController.m:implementation</string>
+						<string>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___ViewController.m:implementation:setRepresentedObject</string>
+						<string>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___ViewController.m:implementation:representedObject</string>
+						<string>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___ViewController.m:implementation:setView</string>
+					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>Resources/Scenes/DefaultScene.dae</key>
+						<dict>
+							<key>Path</key>
+							<string>./teapot.dae</string>
+						</dict>
+						<key>Base.lproj/___VARIABLE_classPrefix:identifier___Document.xib</key>
+						<dict>
+							<key>Path</key>
+							<string>./DocumentSCNView.xib</string>
+						</dict>
+						<key>&lt;!-- View interface --&gt;</key>
+						<string>____SceneViewClass___View.h</string>
+						<key>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___View.h:import:importSceneKit</key>
+						<string>#import &lt;SceneKit/SceneKit.h&gt;
+</string>
+						<key>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___View.h:ivars</key>
+						<string>@interface ___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___View : SCNView
+
+@property (nonatomic) IBOutlet NSViewController *viewController;
+</string>
+						<key>&lt;!-- View implementation --&gt;</key>
+						<string>___SceneViewClass___View.m</string>
+						<key>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___View.m:implementation</key>
+						<dict>
+							<key>Beginning</key>
+							<string>@implementation ___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___View
+</string>
+							<key>End</key>
+							<string>@end</string>
+						</dict>
+						<key>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___View.m:implementation:setViewController</key>
+						<string>- (void)setViewController:(NSViewController *)newController
+{
+    if (_viewController)
+    {
+        NSResponder *controllerNextResponder = [_viewController nextResponder];
+        [super setNextResponder:controllerNextResponder];
+        [_viewController setNextResponder:nil];
+    }
+    
+    _viewController = newController;
+    
+    if (newController)
+    {
+        NSResponder *ownNextResponder = [self nextResponder];
+        [super setNextResponder: _viewController];
+        [_viewController setNextResponder:ownNextResponder];
+    }
+}
+</string>
+						<key>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___View.m:implementation:setNextResponder</key>
+						<string>- (void)setNextResponder:(NSResponder *)newNextResponder
+{
+    if (_viewController)
+    {
+        [_viewController setNextResponder:newNextResponder];
+        return;
+    }
+    
+    [super setNextResponder:newNextResponder];
+}
+</string>
+						<key>&lt;!-- View controller interface --&gt;</key>
+						<string>___SceneViewClass___ViewController.h</string>
+						<key>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___ViewController.h:import:importSceneKit</key>
+						<string>#import &lt;SceneKit/SceneKit.h&gt;
+</string>
+						<key>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___ViewController.h:ivars</key>
+						<string>@interface ___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___ViewController : NSViewController
+</string>
+						<key>&lt;!-- View controller implementation --&gt;</key>
+						<string>___SceneViewClass___ViewController.m</string>
+						<key>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___ViewController.m:implementation</key>
+						<dict>
+							<key>Beginning</key>
+							<string>@implementation ___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___ViewController
+</string>
+							<key>End</key>
+							<string>@end</string>
+						</dict>
+						<key>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___ViewController.m:implementation:setRepresentedObject</key>
+						<string>- (void)setRepresentedObject:(id)representedObject
+{
+    NSParameterAssert([representedObject isKindOfClass:[SCNScene class]]);
+
+    ((SCNView *)self.view).scene = representedObject;
+    
+    [super setRepresentedObject:representedObject];
+}
+</string>
+						<key>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___ViewController.m:implementation:representedObject</key>
+						<string>- (id)representedObject
+{
+    id theRepresentedObject = [super representedObject];
+    
+    if (nil == theRepresentedObject)
+    {
+        return ((SCNView *)self.view).scene;
+    }
+    else
+    {
+        return theRepresentedObject;
+    }
+}
+</string>
+						<key>___VARIABLE_classPrefix:identifier______VARIABLE_primaryViewName:identifier___ViewController.m:implementation:setView</key>
+						<string>- (void)setView:(NSView *)view
+{
+    NSParameterAssert([view isKindOfClass:[SCNView class]]);
+
+    [super setView:view];
+}
+</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>principalViewName</string>
+			<key>Name</key>
+			<string>Principal View Name</string>
+			<key>Description</key>
+			<string>Name for the principal view</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>Main</string>
+			<key>SortOrder</key>
+			<string>220</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>principalViewNamePreview</string>
+			<key>Name</key>
+			<string>Principal View Class</string>
+			<key>Description</key>
+			<string>Class name of the principal view</string>
+			<key>Type</key>
+			<string>static</string>
+			<key>Default</key>
+			<string>___VARIABLE_classPrefix:identifier______VARIABLE_principalViewName:identifier___View</string>
+			<key>SortOrder</key>
+			<string>220</string>
+		</dict>
+	</array>
+</dict>
+</plist>

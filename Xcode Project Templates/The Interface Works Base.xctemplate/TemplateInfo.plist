@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.TheInterfaceWorks.dt.unit.base</string>
+	<key>Definitions</key>
+	<dict>
+		<key>*:classConstants:*</key>
+		<dict>
+			<key>Beginning</key>
+			<string>
+extern const struct ___VARIABLE_classPrefix:identifier______*____tag
+{</string>
+			<key>End</key>
+			<string>} k___VARIABLE_classPrefix______*___;</string>
+			<key>Indent</key>
+			<integer>1</integer>
+		</dict>
+		<key>*:classConstants:*:constants:*</key>
+		<dict>
+			<key>Beginning</key>
+			<string>struct classConstants____*____tag
+{</string>
+			<key>End</key>
+			<string>} ___*___;</string>
+			<key>Indent</key>
+			<integer>1</integer>
+		</dict>
+		<key>*:classConstants:*:constants:*:members</key>
+		<dict/>
+		<key>*:classConstantsInit:*</key>
+		<dict>
+			<key>Beginning</key>
+			<string>
+const struct ___VARIABLE_classPrefix:identifier______*____tag k___VARIABLE_classPrefix:identifier______*___ =
+{</string>
+			<key>End</key>
+			<string>};</string>
+			<key>Indent</key>
+			<integer>1</integer>
+		</dict>
+		<key>*:classConstantsInit:*:constants:*</key>
+		<dict>
+			<key>Beginning</key>
+			<string>.___*___ =
+{
+</string>
+			<key>End</key>
+			<string>},</string>
+			<key>Indent</key>
+			<integer>1</integer>
+		</dict>
+		<key>*classConstantsInit:*:constants:*:members</key>
+		<dict/>
+	</dict>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>documentWindowControllerPath</string>
+			<key>Type</key>
+			<string>static</string>
+			<key>Default</key>
+			<string>./Controller/Coordinating/View/Window/Document/</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>principalViewControllerPath</string>
+			<key>Type</key>
+			<string>static</string>
+			<key>Default</key>
+			<string>./Controller/Coordinating/View/Principal/</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>principalViewPath</string>
+			<key>Type</key>
+			<string>static</string>
+			<key>Default</key>
+			<string>./View/Principal/</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>
