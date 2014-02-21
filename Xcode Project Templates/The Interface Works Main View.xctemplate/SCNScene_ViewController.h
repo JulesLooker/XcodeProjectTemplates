@@ -11,4 +11,6 @@
 
 @interface ___VARIABLE_classPrefix:identifier______VARIABLE_principalViewName:identifier___ViewController : NSViewController
 
+@property SCNView *view;
+
 @end

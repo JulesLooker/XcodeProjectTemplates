@@ -10,11 +10,13 @@
 
 @implementation ___VARIABLE_classPrefix:identifier______VARIABLE_principalViewName:identifier___ViewController
 
+@dynamic view;
+
 - (void)setRepresentedObject:(id)representedObject
 {
     NSParameterAssert([representedObject isKindOfClass:[SCNScene class]]);
     
-    ((SCNView *)self.view).scene = representedObject;
+    self.view.scene = representedObject;
     
     [super setRepresentedObject:representedObject];
 }
@@ -25,7 +27,7 @@
     
     if (nil == theRepresentedObject)
     {
-        return ((SCNView *)self.view).scene;
+        return self.view.scene;
     }
     else
     {
