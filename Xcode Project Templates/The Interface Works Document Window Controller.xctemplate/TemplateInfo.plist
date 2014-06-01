@@ -159,7 +159,9 @@
 							<string>@end</string>
 						</dict>
 						<key>___VARIABLE_documentWindowControllerPath______VARIABLE_classPrefix:identifier___DocumentWindowController.m:implementation:init</key>
-						<string>- (id)init
+						<string>#pragma message &quot;In ___VARIABLE_classPrefix:identifier___Document.xib change the File's Owner Custom Class to ___VARIABLE_classPrefix:identifier___DocumentWindowController using the Identity inspector in Interface Builder. Defaults to ___VARIABLE_classPrefix:identifier___Document which is wrong as you&apos;ve now got this  NSWindowController subclass.&quot;
+
+- (id)init
 {
     self = [super initWithWindowNibName:k___VARIABLE_classPrefix:identifier___DocumentWindowController.resource.windowNibName owner:self];
     
